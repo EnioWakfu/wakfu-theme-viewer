@@ -9,7 +9,7 @@ module.exports = {
       splitChunks: false
     },
   },
-  publicPath: process.env.NODE_ENV === 'production' ? '/wakfu-tools/wakfu-theme-viewer' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/wakfu-theme-viewer' : '/',
   outputDir: path.resolve(__dirname, "docs"),
   transpileDependencies: [
     'vuetify'
