@@ -1,7 +1,7 @@
 <template>
   <v-card className="ma-2">
     <v-card-title>{{ pixmap.id }}</v-card-title>
-    <v-card-subtitle>Texture : {{ pixmap.texture }}</v-card-subtitle>
+    <v-card-subtitle>Texture : <a :href="`${pixmap.image.src}`" target="_blank">{{ pixmap.texture }}</a></v-card-subtitle>
     <v-card-text>
       Position : {{ pixmap.position }} <br/>
       Coords : {{ pixmap.x }};{{ pixmap.y }} <br/>
